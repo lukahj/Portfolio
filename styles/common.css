@@ -1,8 +1,42 @@
 :root {
-  --primary-color: aqua;
+  --primary-color: pink;
 }
-
+body {
+  height: 100vh;
+}
 body {
   background-color: var(--primary-color);
   color: white;
+  font-family: "Sometype Mono";
+  margin: 0;
+}
+
+.page-wrapper {
+  display: flex;
+  flex-direction: column;
+  background-color: red;
+  height: 100%;
+}
+
+.page-header {
+  height: 50px;
+  background-color: blanchedalmond;
+}
+
+.content-wrapper {
+  background-color: blue;
+  flex-grow: 1;
+}
+
+.content-container {
+  background-color: lightgreen;
+  height: 100%;
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.page-footer {
+  height: 50px;
+  background-color: var(--primary-color);
 }
